@@ -73,7 +73,7 @@ class AnimeController extends Controller
 
         // $title = isset($video_data['title']);
 
-        $apikey = "AIzaSyD2cTxPXuFEOAbdC8BicdGRhpzo0Mb44Lg";
+        $apikey = "Your Key";
         $client2 = new Client([
             // Base URI is used with relative requests
             'base_uri' => 'https://www.googleapis.com',
