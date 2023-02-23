@@ -1,0 +1,82 @@
+body {
+  /* position: relative; */
+  overflow-x: hidden;
+}
+ .outer-container {
+ 
+  background-image: url("../images/main-bg.png");
+  background-size: 30%;
+  z-index: 1;
+  position: relative;
+} 
+.list-info li {
+  margin-bottom: 10px;
+}
+.content-main-box {
+  padding: 30px;
+  
+  /* height: max-content; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  background-color: #ffffff;
+  border: 3px solid gray;
+  border-radius: 20px;
+  
+}
+.title-card {
+  font-size: 18px;
+  font-weight: bold;
+  font-family:Tahoma;
+}
+ .img-bg-left,
+.img-bg-right {
+  width: auto;
+  height: 800px;
+  opacity: 0.8;
+}
+ /* .left,.right{
+  z-index: 2;
+ } */
+.img-bg-1 {
+  position: absolute;
+  bottom: 0;
+  left: -700px;
+  
+}
+
+.img-bg-2 {
+  position: absolute;
+  right: -400px;
+  bottom: 0;
+ 
+}
+
+
+.judulweb {
+  font-weight: bold;
+  color: #ffffff;
+  float: left;
+  font-size: 20px;
+  padding: 0 10px 0 20px;
+}
+
+
+
+/* end */
+.site-header {
+  margin-bottom: 30px;
+  display: flex;
+  margin-top: 50px;
+  background-image: url("../images/main-bg.png");
+  background-size: cover;
+  background-size: 30%;
+  background-position-x: 40%;
+}
+.img-header {
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+}
+
+

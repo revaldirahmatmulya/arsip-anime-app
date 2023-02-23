@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px) {
+  .navigasi {
+    width: 100vw;
+    position: static;
+    padding: 5px;
+  }
+  .judulweb {
+    float: none;
+    font-size: 30px;
+  }
+  .menunavigasi ul {
+    list-style-type: none;
+    float: none;
+  }
+  .menunavigasi ul li {
+    float: none;
+  }
+  .menunavigasi li {
+    border: 1px solid white;
+    padding: 4px;
+  }
+  .menunavigasi li:hover {
+    background-color: #7e7be2;
+  }
+
+  .outer-container {
+    background-image: none;
+  }
+  .container {
+    width: 90vw;
+  }
+  .left-content {
+    width: fit-content;
+  }
+  .right-content,
+  .right-content-title {
+    width: 90vw;
+    clear: both;
+  }
+  .about-me-text {
+    width: fit-content;
+  }
+  .site-header {
+    margin-top: initial;
+  }
+  .img-header {
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-bg-1,
+  .img-bg-2 {
+    display: none;
+  }
+}
